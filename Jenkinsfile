@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "nadinc/mvn"
+        DOCKER_IMAGE = "nithi1230/mvn"
         DOCKER_TAG = "latest"
         DOCKER_CREDENTIALS_ID = "e752556d-0bc6-4985-ad16-6f2a663ce000"
         
