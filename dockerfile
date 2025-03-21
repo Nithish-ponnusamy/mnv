@@ -1,4 +1,4 @@
 FROM tomcat:latest
-COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY ./path/to/index.html /usr/share/nginx/html/index.html
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
